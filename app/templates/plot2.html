@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Plot</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+</head>
+<style>
+	body{
+		background: linear-gradient(to right, #0cbaba, #ce6dcb);
+
+	}
+	.containerfull{
+		height: 100vh;
+	}
+	.contimage{
+	background: rgba(255, 255, 255, 0.38);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(9.6px);
+	-webkit-backdrop-filter: blur(9.6px);
+	border: 1px solid rgba(255, 255, 255, 0.78);
+	width: fit-content;
+	}
+</style>
+<body>
+<!-- sudhanva plot 1 -->
+<div class="container containerfull d-flex justify-content-center align-items-center">
+	<div class="container contimage d-flex justify-content-center ">
+		<img src="data:image/png;base64,{{ image_base64_1 }}" />
+	</div>
+</div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+
+</html>
